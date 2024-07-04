@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.container{
+    background-color: white;
+    color: black;
+    width: 325px;
+    height: 65vh;
+    margin: 12vh auto;
+    border-radius: 1vw;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+#trademarkFont{
+    font-family: "Playwrite ES Deco", cursive;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: underline solid;
+    position: fixed;
+    color: white;
+    top: 3vh;
+    left: 2vw;
+}
+
+.container .fields{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5vh 0;
+}
+
+.welcomeTrademarkFont{
+    font-family: "Playwrite ES Deco", cursive;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: underline solid;
+    color: black;
+    text-align: center;
+}
+
+.username{
+    margin-top: 2vh;
+}
+
+input{
+    max-width: 230px;
+    height: 27px;
+}
+
+#signInErrorMessage{
+    font-size: small;
+    color: red;
+    text-decoration: underline;
+}
+
+.highlightLink{
+    color: rgb(50, 50, 241);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.highlightLink:hover{
+    color: rgb(230, 184, 4);
+}
+
+#signIn{
+    height: 40px;
+    background-color: rgb(33, 91, 135);
+    color: white;
+    width: 200px;
+    align-self: center;
+    border-radius: 30px;
+    border-style: none;
+    margin: 3vh 0;
+    cursor: pointer;
+}
+
+#signIn:hover{
+    background-color: rgb(219, 195, 97);
+}
+
+.logos{
+    align-self: center;
+    width: 215px;
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh 0;
+}
+
+img{
+    width: 50px;
+}
+
+#signUp{
+    align-self: center;
+    margin-top: 4vh;
+}

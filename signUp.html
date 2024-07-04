@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styleSU.css">
+</head>
+<body>
+    <span id="trademarkFont">ArtWork.com</span>
+    <div class="container">
+        <div class="welcomeMessage">
+            <span>Welcome To Everyone's Favourite</span>
+            <span class="welcomeTrademarkFont">ArtWork.com</span>
+        </div>
+        <div class="fields fullName">
+            <label for="text">Full Name</label>
+            <input type="text" id="fullNameInput" placeholder="Full Name">
+        </div>
+        <div class="fields email">
+            <label for="email">Email</label>
+            <input type="email" id="emailInput" placeholder="Email">
+        </div>
+        <div class="fields phoneNumber">
+            <label for="text">Phone Number</label>
+            <input type="text" id="phoneNumberInput" placeholder="Phone Number">
+        </div>
+        <div class="fields username">
+            <label for="text">Username</label>
+            <input type="text" id="usernameInput" placeholder="Username">
+        </div>
+        <div class="fields password">
+            <label for="text">Password</label>
+            <input type="text" id="passwordInput" placeholder="Password">
+        </div>
+        <div class="fields confirmPassword">
+            <label for="text">Confirm Password</label>
+            <input type="text" id="confirmPasswordInput" placeholder="Confirm Password">
+        </div>
+
+        <div class="fields authentication">
+            <span id="authQuesTitle">Enter Authentication Questions Details:</span>
+            <div class="authQues">
+                <label for="text" id="authenticationPetName">Pet Name : </label>
+                <input type="text" id="authenticationPetNameInput" placeholder="Pet Name">
+            </div>
+            <div class="authQues">
+                <label for="text" id="authenticationSchoolName">School Name : </label>
+                <input type="text" id="authenticationSchoolNameInput" placeholder="School Name">
+            </div>
+            <div class="authQues">
+                <label for="text" id="authenticationFavSportName">Favourite Sport Name : </label>
+                <input type="text" id="authenticationFavSportNameInput" placeholder="Favourite Sport Name">
+            </div>
+        </div>
+
+        <span id="signUpErrorMessage"></span>
+        <button id="createAccount">Create Account</button>
+    </div>
+    <script type="module" src="data.js"></script>
+    <script type="module" src="scriptSU.js"></script>
+</body>
+</html>

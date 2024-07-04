@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('backgroundSU.jpg');
+    background-size: cover;
+}
+
+#trademarkFont{
+    font-family: "Playwrite ES Deco", cursive;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: underline solid;
+    position: fixed;
+    color: white;
+    top: 3vh;
+    left: 2vw;
+}
+
+.container{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 81vh;
+    margin: 6vh auto;
+    border-radius: 1vh;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+    position: relative;
+}
+
+.container .welcomeMessage{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 0.1vh 0;
+}
+
+.welcomeTrademarkFont{
+    font-family: "Playwrite ES Deco", cursive;
+    font-weight: 800;
+    font-size: small;
+    text-decoration: underline solid;
+    color: black;
+    text-align: center;
+}
+
+.container .fields{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5vh 0;
+}
+
+input{
+    max-width: 230px;
+    height: 19px;
+}
+
+#createAccount{
+    margin-top: 1vh;
+    height: 35px;
+    background-color: rgb(33, 91, 135);
+    color: white;
+    width: 170px;
+    align-self: center;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.confirmPassword{
+    margin-bottom: 2vh;
+}
+
+#authQuesTitle{
+    text-align: center;
+}
+
+.authentication input{
+    height: 13px;
+}
+
+.authQues{
+    display: flex;
+    margin: 1vh 2vh;
+    flex-direction: row;
+}
+
+.authQues input{
+    position: absolute;
+    right: 10%;
+}
+
+#signUpErrorMessage{
+    font-size: small;
+    color: red;
+    text-decoration: underline;
+}
+
+#createAccount:hover{
+    background-color: rgb(219, 195, 97);
+}

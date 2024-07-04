@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('backgroundRP.jpg');
+    background-size: cover;
+}
+
+#trademarkFont{
+    font-family: "Playwrite ES Deco", cursive;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: underline solid;
+    position: fixed;
+    color: white;
+    top: 3vh;
+    left: 2vw;
+}
+
+.container{
+    position: relative;
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 60vh;
+    margin: 15vh auto;
+    border-radius: 1vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+.container .welcomeMessage{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 0.1vh 0;
+}
+
+#welcomeTrademarkFont{
+    font-family: "Playwrite ES Deco", cursive;
+    font-weight: 900;
+    text-decoration: underline solid;
+    color: black;
+    text-align: center;
+}
+
+.container .fields{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5vh 0;
+}
+
+input{
+    max-width: 230px;
+    height: 27px;
+}
+
+.phoneNumber{
+    margin-bottom: 3vh;
+}
+
+select{
+    max-width: 220px;
+    height: 27px;
+}
+
+#signInAgain{
+    position: absolute;
+    height: 40px;
+    background-color: rgb(33, 91, 135);
+    color: white;
+    width: 200px;
+    align-self: center;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+    bottom: 4vh;
+}
+
+#signInAgain:hover{
+    background-color: rgb(219, 195, 97);
+}
+
+#passwordAuthQues{
+    margin-bottom:2vh;
+}
+
+#errorMessage{
+    font-size: small;
+    color: red;
+    text-decoration: underline;
+}

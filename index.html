@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogInPage-ArtWork.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span id="trademarkFont">ArtWork.com</span>
+    <div class="container">
+        <span class="welcomeTrademarkFont">ArtWork.com</span>
+        <div class="fields username">
+            <label for="text">Username</label>
+            <input type="text" id="usernameInput" placeholder="Username">
+        </div>
+
+        <div class="fields password">
+            <label for="password">Password</label>
+            <input type="password" id="passwordInput" placeholder="Password">
+        </div>
+        <span id="signInErrorMessage"></span>
+        <a href="FindCredentials.html" target="_blank">
+            <span class="highlightLink">Forgot password?</span>
+        </a>
+
+        <button id="signIn">Sign In</button>
+
+        <div class="logos">
+            <img src="logo1.png" id="Google" alt="Google">
+            <img src="logo2.png" id="GitHub" alt="GitHub">
+            <img src="logo3.png" id="LinkedIn" alt="LinkedIn">
+        </div>
+        <span id="signUp">New Here? <a href="signUp.html" target="_blank"><span class="highlightLink">Sign Up</span></a>.</span>
+    </div>
+    <script type="module" src="data.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
